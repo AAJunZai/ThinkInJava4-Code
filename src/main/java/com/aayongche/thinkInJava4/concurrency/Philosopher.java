@@ -13,11 +13,9 @@ public class Philosopher implements Runnable {
   private Random rand = new Random(47);
   private void pause() throws InterruptedException {
     if(ponderFactor == 0) return;
-    TimeUnit.MILLISECONDS.sleep(
-      rand.nextInt(ponderFactor * 250));
+    TimeUnit.MILLISECONDS.sleep(rand.nextInt(ponderFactor * 250));
   }
-  public Philosopher(Chopstick left, Chopstick right,
-    int ident, int ponder) {
+  public Philosopher(Chopstick left, Chopstick right, int ident, int ponder) {
     this.left = left;
     this.right = right;
     id = ident;
