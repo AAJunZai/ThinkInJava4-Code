@@ -103,7 +103,7 @@ public class GreenhouseScheduler {
     // New feature: data collection
     static class DataPoint {
         final Calendar time;
-        final float temperature;
+        final float temperature ;
         final float humidity;
 
         public DataPoint(Calendar d, float temp, float hum) {
