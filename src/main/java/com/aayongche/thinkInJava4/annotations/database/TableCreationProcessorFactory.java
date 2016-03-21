@@ -68,7 +68,7 @@ public class TableCreationProcessorFactory implements AnnotationProcessorFactory
                 }
             }
 
-            public void visitFieldDeclaration(FieldDecWWlaration d) {
+           /* public void visitFieldDeclaration(FieldDecWWlaration d) {
                 String columnName = "";
                 if (d.getAnnotation(SQLInteger.class) != null) {
                     SQLInteger sInt = d.getAnnotation(SQLInteger.class);
@@ -92,7 +92,7 @@ public class TableCreationProcessorFactory implements AnnotationProcessorFactory
                             sString.value() + ")" +
                             getConstraints(sString.constraints()) + ",";
                 }
-            }
+            }*/
 
             private String getConstraints(Constraints con) {
                 String constraints = "";
