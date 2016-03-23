@@ -6,7 +6,7 @@ import static com.aayongche.thinkInJava4.net.mindview.util.Print.print;
 
 public class MathOps {
   public static void main(String[] args) {
-    // Create a seeded random number generator:
+    // Create a seeded random number  generator:
     Random rand = new Random(47);
     int i, j, k;
     // Choose value from 1 to 100:
