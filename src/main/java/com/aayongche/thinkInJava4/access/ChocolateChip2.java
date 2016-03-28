@@ -1,5 +1,5 @@
 package com.aayongche.thinkInJava4.access;//: access/ChocolateChip2.java
-import access.cookie2.*;
+import com.aayongche.thinkInJava4.access.cookie2.Cookie;
 
 public class ChocolateChip2 extends Cookie {
   public ChocolateChip2() {
