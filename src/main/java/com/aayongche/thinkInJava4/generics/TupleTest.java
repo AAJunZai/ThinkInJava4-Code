@@ -1,5 +1,5 @@
 package com.aayongche.thinkInJava4.generics;//: generics/TupleTest.java
-import net.mindview.util.*;
+import com.aayongche.thinkInJava4.net.mindview.util.*;
 
 class Amphibian {}
 class Vehicle {}

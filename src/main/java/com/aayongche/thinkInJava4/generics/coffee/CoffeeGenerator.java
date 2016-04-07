@@ -2,7 +2,7 @@
 // Generate different types of Coffee:
 package com.aayongche.thinkInJava4.generics.coffee;
 import java.util.*;
-import net.mindview.util.*;
+import com.aayongche.thinkInJava4.net.mindview.util.*;
 
 public class CoffeeGenerator
 implements Generator<Coffee>, Iterable<Coffee> {
