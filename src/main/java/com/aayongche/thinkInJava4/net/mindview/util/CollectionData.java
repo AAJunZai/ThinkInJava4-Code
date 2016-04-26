@@ -11,8 +11,7 @@ public class CollectionData<T> extends ArrayList<T> {
     }
 
     // A generic convenience method:
-    public static <T> CollectionData<T>
-    list(Generator<T> gen, int quantity) {
+    public static <T> CollectionData<T> list(Generator<T> gen, int quantity) {
         return new CollectionData<T>(gen, quantity);
     }
 } ///:~
