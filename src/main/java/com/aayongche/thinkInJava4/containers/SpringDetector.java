@@ -26,6 +26,7 @@ public class SpringDetector {
       System.out.println("aaa");
       System.out.println("eeee");
       System.out.println("bbbb");
+      System.out.println("dddd");
     }
 } /* Output:
 map = {Groundhog #3=Early Spring!, Groundhog #7=Early Spring!, Groundhog #5=Early Spring!, Groundhog #9=Six more weeks of Winter!, Groundhog #8=Six more weeks of Winter!, Groundhog #0=Six more weeks of Winter!, Groundhog #6=Early Spring!, Groundhog #4=Six more weeks of Winter!, Groundhog #1=Six more weeks of Winter!, Groundhog #2=Early Spring!}
