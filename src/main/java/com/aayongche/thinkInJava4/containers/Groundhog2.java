@@ -3,10 +3,15 @@ package com.aayongche.thinkInJava4.containers;//: containers/Groundhog2.java
 // must override hashCode() and equals().
 
 public class Groundhog2 extends Groundhog {
-  public Groundhog2(int n) { super(n); }
-  public int hashCode() { return number; }
-  public boolean equals(Object o) {
-    return o instanceof Groundhog2 &&
-      (number == ((Groundhog2)o).number);
-  }
+    public Groundhog2(int n) {
+        super(n);
+    }
+
+    public int hashCode() {
+        return number;
+    }
+
+    public boolean equals(Object o) {
+        return o instanceof Groundhog2 && (number == ((Groundhog2) o).number);
+    }
 } ///:~
