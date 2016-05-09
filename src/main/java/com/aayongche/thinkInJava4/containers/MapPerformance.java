@@ -49,8 +49,7 @@ public class MapPerformance {
         Tester.run(new TreeMap<Integer, Integer>(), tests);
         Tester.run(new HashMap<Integer, Integer>(), tests);
         Tester.run(new LinkedHashMap<Integer, Integer>(), tests);
-        Tester.run(
-                new IdentityHashMap<Integer, Integer>(), tests);
+        Tester.run(new IdentityHashMap<Integer, Integer>(), tests);
         Tester.run(new WeakHashMap<Integer, Integer>(), tests);
         Tester.run(new Hashtable<Integer, Integer>(), tests);
     }
