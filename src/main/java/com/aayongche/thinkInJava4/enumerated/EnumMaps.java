@@ -13,8 +13,7 @@ interface Command {
 
 public class EnumMaps {
     public static void main(String[] args) {
-        EnumMap<AlarmPoints, Command> em =
-                new EnumMap<AlarmPoints, Command>(AlarmPoints.class);
+        EnumMap<AlarmPoints, Command> em = new EnumMap<AlarmPoints, Command>(AlarmPoints.class);
         em.put(AlarmPoints.KITCHEN, new Command() {
             public void action() {
                 print("Kitchen fire!");
