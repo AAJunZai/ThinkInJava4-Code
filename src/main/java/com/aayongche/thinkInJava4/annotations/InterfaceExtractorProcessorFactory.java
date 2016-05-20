@@ -8,9 +8,7 @@ import com.sun.mirror.declaration.*;
 import java.util.*;
 
 public class InterfaceExtractorProcessorFactory implements AnnotationProcessorFactory {
-    public AnnotationProcessor getProcessorFor(
-            Set<AnnotationTypeDeclaration> atds,
-            AnnotationProcessorEnvironment env) {
+    public AnnotationProcessor getProcessorFor(Set<AnnotationTypeDeclaration> atds, AnnotationProcessorEnvironment env) {
         return new InterfaceExtractorProcessor(env);
     }
 
