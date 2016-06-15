@@ -11,6 +11,7 @@ import java.util.LinkedList;
 public class test1 {
 
     public static void main(String[] args) {
+        
     }
 
     class Stack<T> {
