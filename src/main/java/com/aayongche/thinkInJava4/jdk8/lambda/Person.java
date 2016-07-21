@@ -7,7 +7,7 @@ public interface Person {
     long getId();
 
     default String getName() {
-        return "yanjun.liu";
+        return "yanjun.liu ";
     }
 }
 
