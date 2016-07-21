@@ -22,7 +22,7 @@ public class LambdaTest {
     }
 
     public static void main(String[] args) {
-        String[] strings = new String[]{"a", "cc", "bbb", "ddddd", "eeee"};
+        String[] strings = new String[]{"a", "cc", "bbb", "ddddd", "eeee "};
 //        Arrays.sort(strings, new LengthComparator());
 //        Arrays.sort(strings,(String first,String second)->Integer.compare(first.length(),second.length()));
        /* Arrays.sort(strings,(String first,String second)->{
